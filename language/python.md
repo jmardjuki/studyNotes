@@ -26,6 +26,8 @@ mySet = set()
 mySet.add(item)
 mySet.remove(item)
 ```
+`frozenset()` is immutable `set()`
+
 `tuple` is an immutable sequence
 
 `bin()` is to get binary representation of number
@@ -52,7 +54,7 @@ Stack
 
 Regex
  + Match pattern and assign to variable
-```
+```python
 import re
 
 p = re.compile("([A-z]{5})-([0-9]*)")
