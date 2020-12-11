@@ -1,6 +1,6 @@
 # Python Notes
-
-## Built-in Fuctions
+Quick notes to refer
+## Built-in
 `range()` in Python3 is `xrange()` in Python2
 <br>Usage example
 ```python
@@ -26,3 +26,18 @@ Any hashable object can be stored in set.
 Stack
  + Can be implemented with Python List
  + Use `stack[-1:]`, get the last element in the list
+
+Regex
+ + Match pattern and assign to variable
+<br>Usage example
+```
+import re
+
+p = re.compile("([A-z]{5})-([0-9]*)")
+sample = "Janet-1024"
+group = p.match(sample)
+
+print(group[0]) # Janet-1024
+print(group[1]) # Janet
+print(group[2]) # 1024
+```
