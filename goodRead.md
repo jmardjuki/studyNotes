@@ -12,3 +12,7 @@ Good book on how to write 'clean code'
 <br>Note: Not free :(
 https://www.oreilly.com/library/view/clean-code-a/9780136083238/
 
+- LinkedIn SRE (Site Reliability Engineer) curriculum
+<br>
+https://linkedin.github.io/school-of-sre/
+
